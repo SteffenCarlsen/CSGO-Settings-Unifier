@@ -1,5 +1,6 @@
 # CSGO-Settings-Unifier
 Program to unify CSGO settings across multiple accounts
+
 <img src="https://i.imgur.com/YFFg1dJ.png" alt="drawing" width="200" heigth="200"/>
 ## How to use
 1. Run CSGO-Settings-Unifier once - It automatically creates a settings folder with a json-config file

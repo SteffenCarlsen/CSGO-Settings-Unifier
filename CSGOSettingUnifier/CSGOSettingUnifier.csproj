@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>csgo_squircle-512.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

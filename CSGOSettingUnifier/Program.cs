@@ -37,7 +37,7 @@ namespace CSGOSettingUnifier
 
             ConsoleExtensions.WriteLineWithDate("No settings to replace due to settings, please change them to replace the settings");
             Console.WriteLine("Press any key to exit application...");
-
+            Console.ReadKey();
             Environment.Exit(0);
         }
     }

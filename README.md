@@ -9,7 +9,7 @@ Program to unify CSGO settings across multiple accounts
 2. Go to `./Exe-file/Config` and open Settings.json
 3. Ensure `CSGOPath` is specified to your userdata folder (Should be automatically set based on the Steam Registry key)
 4. Specify whether Video- or Config-settings should be changed by changing the `false` value to `true`
-5. Inside the ./Config folder, put the files you want to replace the settings with, these are supported:	
-	* Any \*.txt files
-	* Any \*.cfg files
+5. Inside the ./Config folder, put the files you want to replace the settings with, these are supported (Usually used files):	
+	* Any \*.txt files (video.txt and videodefaults.txt)
+	* Any \*.cfg files (config.cfg and autoexec.cfg)
 	

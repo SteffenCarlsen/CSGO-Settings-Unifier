@@ -29,7 +29,7 @@ namespace CSGOSettingUnifier.Settings
             TextWriter writer = null;
             try
             {
-                var contentsToWriteToFile = JsonConvert.SerializeObject(objectToWrite);
+                var contentsToWriteToFile = JsonConvert.SerializeObject(objectToWrite, Formatting.Indented);
                 writer = new StreamWriter(filePath, append);
                 writer.Write(contentsToWriteToFile);
             }
